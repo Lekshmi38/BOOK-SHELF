@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 40px;
+    font-family: Plus Jhakartha Sans;
+}
+
+.book-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+   
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.choice-btn {
+    background-color: #4EA9E0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 48%; /* To ensure both buttons fit on the same row with a small gap */
+}
+
+.choice-btn:hover {
+    background-color: #0056b3;
+}
+
+.form-fields input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#postBtn {
+    width: 100%;
+    background-color: #4EA9E0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#postBtn:hover {
+    background-color: #0056b3;
+}
+
+.notification-text {
+    margin-top: 20px;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell or Exchange Books</title>
+    <link rel="stylesheet" href="sell-ex.css"> <link href='https://fonts.googleapis.com/css?family=Plus Jakarta Sans' rel='stylesheet'>
+</head>
+<body>
+
+<form class="book-form">
+    <p>Choose if you would like to sell or exchange:</p>
+    <div class="button-group">
+        <button type="button" class="choice-btn" id="sellBtn">Sell</button>
+        <button type="button" class="choice-btn" id="exchangeBtn">Exchange</button>
+    </div>
+    <div class="form-fields">
+        <input type="text" id="bookName" name="bookName" placeholder="Book Name" required>
+        <input type="text" id="authorName" name="authorName" placeholder="Author Name" required>
+        <input type="text" id="isbn" name="isbn" placeholder="ISBN" required>
+        <input type="text" id="price" name="price" placeholder="Price" required>
+        <button type="submit" id="postBtn"><a href="listbook.html">Post</a></button>
+    </div>
+    <p class="notification-text">You will be notified if someone is interested in buying/exchanging.</p>
+</form>
+
+</body>
+</html>
